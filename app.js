@@ -15,4 +15,8 @@ app.use('/charts', function (req, res, next) {
     res.render('charts');
 });
 
+app.use('/mu', function (req, res, next) {
+    res.render('materialUi')
+});
+
 module.exports = app;
